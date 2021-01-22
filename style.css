@@ -1,5 +1,66 @@
-.heading {
-    font-size: 50px;
-    font-family: fantasy;
-    color: brown;
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.logo {
+    float: left;
+    padding-top: 25px;
+    font-size: 20px;
+
+}
+
+nav {
+    float: right;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav li {
+    display: inline-block;
+    margin-left: 70px;
+    padding-top: 45px;
+}
+
+nav a {
+    color:black;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+nav a:hover {
+    color:crimson;
+
+}
+
+.intropic .intro{
+    position: relative;
+    top: 200px;
+}
+
+.intropic{
+    width:55%;
+    margin-right:2%;
+    float: left;
+}
+
+.intro {
+    width:42%;
+    float: left;
+    font-weight: 600;
+    font-size: 22px;
+
+}
+.clearfix{
+    clear:both
 }
