@@ -91,8 +91,10 @@ nav a:hover {
     width: 90%;
     margin: 2rem auto;
   }
+
   h1 {
     align-self: flex-start;
+    color: cornsilk;
   }
   img {
     width: 300px;
