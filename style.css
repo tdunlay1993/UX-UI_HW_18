@@ -2,10 +2,14 @@ body {
     margin: 0;
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
-}
 
+}
+img {
+    width: 100%;
+    height: auto;
+}
 .container {
-    width: 80%;
+    width: 90%;
     margin: 0 auto;
 }
 
@@ -43,6 +47,10 @@ nav a:hover {
 
 }
 
+.heroimg {
+    width:100%;
+}
+
 .intropic .intro{
     position: relative;
     top: 200px;
@@ -50,8 +58,9 @@ nav a:hover {
 
 .intropic{
     width:55%;
-    margin-right:2%;
-    float: left;
+    
+    float: right;
+    margin-top: 3rem;
 }
 
 .intro {
@@ -59,8 +68,59 @@ nav a:hover {
     float: left;
     font-weight: 600;
     font-size: 22px;
+    clear:both;
+    margin-top: 3rem;
 
 }
 .clearfix{
     clear:both
 }
+
+* {
+    box-sizing: border-box;
+  }
+  .card {
+    position: relative;
+    background-color: #E18B23;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+    overflow: hidden;
+    width: 90%;
+    margin: 2rem auto;
+  }
+  h1 {
+    align-self: flex-start;
+  }
+  img {
+    width: 300px;
+    height: auto;
+  }
+  
+  .card-img {
+    position: relative;
+    left: 0;
+    transition: all 0.25s ease-in;
+  }
+  
+  .card:hover > .card-img {
+    left: 650px;
+  }
+  
+  .card:hover > .side-text {
+    right: 15px;
+  }
+  
+  .side-text {
+    position: absolute;
+    right: -400px;
+    top: 100px;
+    transition: all 0.25s ease-in;
+  }
+  
+  .work {
+      padding: 3rem 0;
+      clear: both;
+  }
